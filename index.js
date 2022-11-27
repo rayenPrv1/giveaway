@@ -89,8 +89,7 @@ fs.readdir("./slash/", (_err, files) => {
     client.register_arr.push(props)
   });
 });
- client.on("ready", () => {
-  client.user.setStatus("idle");
+
 });
 client.on("ready", () => {
     console.log(`Logged in as ${client.user.tag}!`);

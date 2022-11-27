@@ -91,7 +91,7 @@ fs.readdir("./slash/", (_err, files) => {
 });
 
  client.on("ready", () => {
-  client.user.setStatus("available");
+  client.user.setStatus("dnd");
 });
 
 // Login through the client

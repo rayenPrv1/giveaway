@@ -94,10 +94,10 @@ fs.readdir("./slash/", (_err, files) => {
 });
 client.on("ready", () => {
     console.log(`Logged in as ${client.user.tag}!`);
-    client.user.setStatus("online");
+    client.user.setStatus("dnd");
 });
 client.on("ready", () => {
-    client.user.setActivity(`+ghelp`, { 
+    client.user.setActivity(`/ghelp`, { 
         type: "PLAYING"
     }); 
 });

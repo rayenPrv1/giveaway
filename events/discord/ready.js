@@ -11,10 +11,10 @@ module.exports = async (client) => {
   // Register slash commands - ( If you are one of those people who read the codes I highly suggest ignoring this because I am very bad at what I am doing, thanks LMAO )
   
   console.log(`[STATUS] ${client.user.tag} is now online!`);
-  const activities = [`+ghelp`];
+  const activities = [`/help`];
   setInterval(() => {
     let activity = activities[Math.floor(Math.random() * activities.length)];
-    client.user.setActivity(activity, { type: "WATCHING" });
+    client.user.setActivity(activity, { type: "PLAYING" });
   }, 20000);
 
 };

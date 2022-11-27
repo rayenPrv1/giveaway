@@ -15,7 +15,7 @@ client.giveawaysManager = new GiveawaysManager(client, {
   default: {
     botsCanWin: false,
     embedColor: "BLACK",
-    reaction: "1030496552822775919",
+    reaction: "🎉",
     lastChance: {
       enabled: true,
       content: ``,

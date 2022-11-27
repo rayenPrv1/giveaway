@@ -91,15 +91,6 @@ fs.readdir("./slash/", (_err, files) => {
 });
 
 });
-client.on("ready", () => {
-    console.log(`Logged in as ${client.user.tag}!`);
-    client.user.setStatus("dnd");
-});
-client.on("ready", () => {
-    client.user.setActivity(`/help`, { 
-        type: "PLAYING"
-    }); 
-});
 
 // Login through the client
 client.login(process.env.token);

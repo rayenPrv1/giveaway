@@ -97,7 +97,7 @@ client.on("ready", () => {
     client.user.setStatus("dnd");
 });
 client.on("ready", () => {
-    client.user.setActivity(`/ghelp`, { 
+    client.user.setActivity(`/help`, { 
         type: "PLAYING"
     }); 
 });

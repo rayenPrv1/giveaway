@@ -90,7 +90,7 @@ fs.readdir("./slash/", (_err, files) => {
   });
 });
 
-});
+
 
 // Login through the client
 client.login(process.env.token);

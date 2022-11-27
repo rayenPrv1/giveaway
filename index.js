@@ -90,7 +90,9 @@ fs.readdir("./slash/", (_err, files) => {
   });
 });
 
-
+ client.on("ready", () => {
+  client.user.setStatus("dnd");
+});
 
 // Login through the client
 client.login(process.env.token);
